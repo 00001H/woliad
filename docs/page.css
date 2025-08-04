@@ -1,0 +1,45 @@
+body{
+    background-color: #212121;
+    color: #c0c0c0;
+    font-size: 120%;
+    font-variant-ligatures: none;
+    font-family: serif;
+}
+a{
+    &:link{
+        color: lightblue;
+    }
+    &:visited{
+        color: lightpink;
+    }
+}
+.lku>p{
+    margin: 0;
+}
+.isin{
+    display: flex;
+    flex-direction: column;
+}
+.am{
+    color: forestgreen;
+}
+.sisa{
+    color: #a0a0a0;
+}
+.f-a{
+    &::before{
+        content: "A: ";
+    }
+    color: #e49f9f;
+}
+.f-m{
+    &::before{
+        content: "M: ";
+    }
+    color: #63cece;
+}
+.nav{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
