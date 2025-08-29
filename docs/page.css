@@ -38,6 +38,12 @@ a{
     }
     color: #63cece;
 }
+.f-p{
+    &::before{
+        content: "P: ";
+    }
+    color: #d9c667;
+}
 .nav{
     margin-top: 20px;
     display: flex;
